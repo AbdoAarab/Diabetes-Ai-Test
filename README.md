@@ -1,6 +1,7 @@
-# Diabetes Test Prediction
+# Diabetes Ai Test
 
 ## Objective
+The objective of this project is to predict whether a person has diabetes or not using Machine Learning Algorithms. We will be using the Pima Indians Diabetes Database to train our models. The dataset consists of several medical predictor variables and one target variable, Outcome. Predictor variables include the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
 Original dataset:  https://archive.ics.uci.edu/ml/datasets/diabetes
 
