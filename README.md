@@ -1,10 +1,8 @@
-# Diabetes  Prediction
+# Diabetes Test Prediction
 
 ## Objective
 
-Original dataset    :  https://archive.ics.uci.edu/ml/datasets/diabetes
-
-Kaggle Competitions :  https://www.kaggle.com/uciml/pima-indians-diabetes-database
+Original dataset:  https://archive.ics.uci.edu/ml/datasets/diabetes
 
 ## Overview
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
@@ -38,10 +36,12 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 
 
-
 ### Screenshot
-![Alt text](images/diabetes.png)
+![home](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/home.png)
+![form](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/form.png)
 
+### Preview
+![preview](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/signin-Preview.gif)
 
 ## Installation
 - Clone this repository and unzip it.

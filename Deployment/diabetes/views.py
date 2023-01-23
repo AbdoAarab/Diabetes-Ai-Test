@@ -12,8 +12,9 @@ def index(request):
 
 
 @csrf_exempt
-def diabetes_pre(request):
-    template = loader.get_template('index.html')
+def results(request):
+    template = loader.get_template('results.html')
+    
     pregnancies = request.POST.get("Pregnancies")
     glucose = request.POST.get("Glucose")
     bloodpressure = request.POST.get("BloodPressure")
