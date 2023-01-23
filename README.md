@@ -42,7 +42,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 ![form](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/form.png)
 
 ### Preview
-![preview](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/signin-Preview.gif)
+![preview](https://github.com/AbdoAarab/Diabetes-Ai-Test/blob/main/media/preview.gif)
 
 ## Installation
 - Clone this repository and unzip it.
