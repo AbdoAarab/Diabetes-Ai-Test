@@ -1,4 +1,3 @@
-
 function showForm() {
     const form = document.getElementById("form-container");
   if (form.style.display === "none") {
@@ -47,10 +46,4 @@ function validateform() {
     alert("Age can't be blank");
     return false;
   }
-
-  const form = document.getElementById("form-container");
-  const results = document.getElementById("results-container");
-  
-  form.style.display = "none";
-  results.style.display = "block";
 }
