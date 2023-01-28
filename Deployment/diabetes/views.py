@@ -15,21 +15,20 @@ def index(request):
 def results(request):
     template = loader.get_template('results.html')
     
-    pregnancies = request.POST.get("Pregnancies")
-    glucose = request.POST.get("Glucose")
-    bloodpressure = request.POST.get("BloodPressure")
-    skinthickness = request.POST.get("SkinThickness")
-    insulin = request.POST.get("Insulin")
-    BMI = request.POST.get("BMI")
-    DiabetesPedigreeFunction = request.POST.get("DiabetesPedigreeFunction")
-    age = request.POST.get("Age")
+    pregnancies = float(request.POST.get("Pregnancies"))
+    glucose =float( request.POST.get("Glucose"))
+    bloodpressure =float( request.POST.get("BloodPressure"))
+    skinthickness =float( request.POST.get("SkinThickness"))
+    insulin =float( request.POST.get("Insulin"))
+    BMI =float( request.POST.get("BMI"))
+    DiabetesPedigreeFunction =float( request.POST.get("DiabetesPedigreeFunction"))
+    age =float( request.POST.get("Age"))
 
     diabetes_data = [
         [pregnancies, glucose, bloodpressure, skinthickness, insulin, BMI, DiabetesPedigreeFunction, age]]
     diabetes_model = pickle.load(open('diabetes_model.pickle', 'rb'))
     # diabetes_model = pd.read_pickle('r',"diabetes_model.pickle")
-    prediction = diabetes_model.predict(
-        [[pregnancies, glucose, bloodpressure, skinthickness, insulin, BMI, DiabetesPedigreeFunction, age]])
+    prediction = diabetes_model.predict(diabetes_data)
     outcome = prediction
 
 

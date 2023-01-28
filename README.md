@@ -18,22 +18,16 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 ### Algortihms Used
 
 1. Logistic Regression
-2. KNN
-3. Support Vector Machine
-4. Naivye Bayes
-5. Random Forest Classifier
-6. Decision Tree
-7. XGboost
+2. Logistic RegressionCV
+3. Random Forest Classifier
+4. Gradient Boosting Classifier
 
 ### Accuracy We got
 
-1. Logistic Regression		: 77.92%
-2. KNN						: 74.92%
-3. Support Vector Machine	: 78.57%
-4. Naivye Bayes				: 77.27%
-5. Random Forest Classifier	: 80.52%
-6. Decision Tree			: 79.22%
-7. XGboost					: 75.32%
+1. Logistic Regression : 76.95%
+2. Logistic RegressionCV : 76.56%
+3. Random Forest Classifier : 75.52%
+4. Gradient Boosting Classifier : 75.91%
 
 
 
